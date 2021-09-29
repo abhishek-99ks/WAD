@@ -1,0 +1,36 @@
+/* Roboto */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+* {
+  /* margin: 0;
+  padding: 0; */
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding-top: 3em;
+  display: grid;
+  justify-content: center;
+  background-color: rgb(6, 58, 55);
+  height: 95vh;
+}
+
+.card {
+  background-color: rgb(143, 204, 240);
+  padding: 1em;
+  border-radius: 7px;
+  height: 40em;
+}
+
+.card-img img {
+  width: 20em;
+}
+
+.stud-desc {
+  list-style-type: none;
+}

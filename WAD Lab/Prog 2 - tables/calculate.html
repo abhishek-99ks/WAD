@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        table, th, td{
+            border: 1px solid black;
+            border-collapse: collapse;
+            text-align: center;
+        }
+
+        table {
+            width: 20em;
+        }
+
+        th {
+            border-bottom: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    
+    <!-- <script src="./calculate.js"> -->
+    <script>
+        document.write( "<table> <tr> <th>Number</th> <th>Square</th> <th>Cube</th> </tr>" ) ;
+        for(var n=0; n<=10; n++)
+        {
+        document.write( "<tr><td>" + n + "</td><td>" + n*n + "</td><td>" + n*n*n + "</td></tr>" ) ;
+        }
+        document.write( "</table>" ) ;
+    </script>
+</body>
+</html>

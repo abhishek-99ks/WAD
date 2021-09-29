@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="../styles/checkout.css">
+
+    <title>Document</title>
+</head>
+<body>
+    <header class="container">
+        <li class="logo"><strong>BookStore</strong></li>
+        <nav>
+            <ul class="nav-links">
+                <li><a class="nav-link" href="./index.html">Home</a></li>
+                <li><a class="nav-link" href="./checkout.html">Checkout</a></li>
+                <li><a class="nav-link" href="./signup.html">Signup</a></li>
+                <!-- <li class="contact-link"><a href="#"><button>Contact</button></a></li> -->
+            </ul>
+        </nav>
+    </header>
+    <section class="container cart-form">
+        <form action="./greeting.html">
+            <div>
+                <label for="cnumber">Card Number:</label>
+                <input type="text" id="cnumber" name="cnumber" required="true">
+            </div>
+            <div>
+                <label for="cuser">Card User:</label>
+                <input type="text" id="cuser" name="cuser" required="true">
+            </div>
+            <div>
+                <label for="edate">Expiry Date:</label>
+                <input type="month" id="edate" name="edate" required="true">
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required="true">
+            </div>
+            <div>
+                <label for="amount">Amount paid:</label>
+                <input type="amount" id="amount" name="amount" required="true">
+            </div>
+            <div class="btn">
+                <button>Submit</button>
+                <!-- <a href="./checkout.html"><button>Reset</button></a>  -->
+                <!-- <a href="./greeting.html">Submit</a> -->
+                <a href="./checkout.html">Reset</a>
+            </div>
+        </form>
+    </section>
+
+</body>
+</html>
