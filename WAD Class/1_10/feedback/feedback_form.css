@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  display: grid;
+  width: 300px;
+  /* height: 600px; */
+
+  /* justify-content: center; */
+
+  padding-left: 1.2em;
+  padding-right: 1.2em;
+}
+
+form {
+  margin-top: 2em;
+}
+
+#srn {
+  width: 250px;
+}
+#name {
+  width: 250px;
+}
+
+#sem {
+  width: 250px;
+}
+
+#section {
+  width: 250px;
+}
+
+.form-fields {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1em;
+}

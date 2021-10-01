@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .form-fields{
+            margin-top: 1em;
+        }
+
+        .form-container {
+            width: 40em;
+            border: 2px solid black;
+            padding: 2em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="form-container">
+            <h1>KEWALS TRAVEL AGENCY</h1>
+            <h2>Customer Information Form</h2>
+            <p><b>Please provide the following information so we can help you with your travel needs</b></p>
+            <form action="">
+                <div class="form-fields">
+                    <label for="name">Your Name:</label>
+                    <input type="text" name="name" id="name">
+                </div>
+                <div class="form-fields">
+                    <label for="address">Address:</label>
+                    <input type="text" name="address" id="address">
+                </div>
+                <div class="form-fields">
+                    <label for="mobile">Mobile:</label>
+                    <input type="number" name="mobile" id="mobile">
+                </div>
+                <div class="form-fields comment-fields">
+                    <label for="comment">Comment:</label>
+                    <textarea name="comment" id="comment" cols="60" rows="10"></textarea>
+                </div>
+                <div class="form-fields">
+                    Service:
+                    <div>
+                        <input type="checkbox" name="subject" id="maths">
+                        <label for="maths">Flight</label>
+                        <input type="checkbox" name="subject" id="science">
+                        <label for="science">Hotel</label>
+                        <input type="checkbox" name="subject" id="english">
+                        <label for="english">Car</label>
+                    </div>
+                </div>
+                <div class="form-fields">
+                    Returning Customer: <br>
+                    <div>
+                        <input type="radio" name="gender" id="male">
+                        <label for="male">Yes</label>
+                        <input type="radio" name="gender" id="female">
+                        <label for="female">No</label>
+                        <input type="radio" name="gender" id="female">
+                        <label for="female">May be</label>
+                    </div>
+                </div>
+                <div class="form-fields">
+                    <label for="sem">Continent:</label>
+                    <select id="sem" name="sem">
+                        <option value="">Europe</option>
+                        <option value="">Australia</option>
+                        <option value="">North America</option>
+                    </select>
+                </div>
+                <div class="form-fields">
+                    <button>Submit</button>
+                    <button>Reset</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
